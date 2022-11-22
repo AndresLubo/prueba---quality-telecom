@@ -45,7 +45,7 @@ const submit = async (inputs, btnLogin) => {
     btnLogin.innerHTML = `Login`;
   } else {
     btnLogin.innerHTML = `Login`;
-    location.replace(`../../src/welcome.html?name=${res[0].name}&status=${res[0].status}`)
+    location.replace(`../src/welcome.html?name=${res[0].name}&status=${res[0].status}`)
 
   }
 };
